@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*
+{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      -webkit-box-sizing:border-box ;
+      font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.main
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 20px auto;
+      width: 500px;
+      padding: 20px;
+      height: 100vh;
+}
+
+.main picture img
+{
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+     margin-bottom: 10px;
+     width: 100%;
+}
+
+.text
+{
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+}
+
+.text h1
+{
+      font-size: 30px;
+      margin-bottom: 20px;
+}
+
+.text p.info
+{
+      
+    line-height: 1.5;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.text .plan
+{
+      display: flex;
+      justify-content: space-evenly;
+      padding-bottom: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+.text .plan h1
+{
+      font-size: 16px;
+      margin-bottom: 0;
+      color: #777;
+}
+
+.text .plan h1 i
+{
+      margin-right: 10px;
+}
+
+.text .plan .pl
+{
+      display: flex;
+      flex-direction: column;
+}
+
+.text .plan .pl h2:nth-child(1)
+{
+      margin-bottom: 10px;
+}
+
+.text .plan .pl h2:nth-child(2)
+{
+      font-weight: normal;
+      color: #777;
+      font-size: 16px;
+}
+
+.text .plan a
+{
+      font-weight: bold;
+      margin-bottom: 20px;
+}
+
+.text .pay
+{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+}
+
+.text .pay p:nth-child(1)
+{
+      background: #3829e0;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      width: fit-content;
+      padding: 10px 30px;
+}
+
+.text .pay p:nth-child(1) a
+{
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+}
+
+.text .pay p:nth-child(2) a
+{
+      color: #7280a7;
+      text-decoration: none;
+}
+
+@media (max-width:767px) {
+      .main
+      {
+            width: 100%;
+      }
+      .text
+      {
+            padding: 10px;
+      }
+}
