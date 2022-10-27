@@ -6,7 +6,6 @@
       box-sizing: border-box;
       -webkit-box-sizing:border-box ;
       font-family: 'Red Hat Display', sans-serif;
-
 }
 
 .main
@@ -40,7 +39,7 @@
       flex-wrap: wrap;
 }
 
-.text h1
+.text h2
 {
       font-size: 30px;
       margin-bottom: 20px;
@@ -63,7 +62,7 @@
       flex-wrap: wrap;
 }
 
-.text .plan h1
+.text .plan i
 {
       font-size: 16px;
       margin-bottom: 0;
@@ -84,6 +83,7 @@
 .text .plan .pl h2:nth-child(1)
 {
       margin-bottom: 10px;
+      font-size: 20px;
 }
 
 .text .plan .pl h2:nth-child(2)
@@ -108,27 +108,29 @@
       margin-bottom: 20px;
 }
 
-.text .pay p:nth-child(1)
+.text .pay h2:nth-child(1)
 {
       background: #3829e0;
       padding: 10px;
       border-radius: 10px;
       margin-bottom: 10px;
-      width: fit-content;
+      width: 100%;
       padding: 10px 30px;
+      font-size: 20px;
 }
 
-.text .pay p:nth-child(1) a
+.text .pay h2:nth-child(1) a
 {
       color: white;
       font-weight: bold;
       text-decoration: none;
 }
 
-.text .pay p:nth-child(2) a
+.text .pay h2:nth-child(2) a
 {
       color: #7280a7;
       text-decoration: none;
+      font-size: 20px;
 }
 
 @media (max-width:767px) {
